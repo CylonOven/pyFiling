@@ -1,0 +1,1 @@
+shortcuts = {'home': '/home/tonis'}
