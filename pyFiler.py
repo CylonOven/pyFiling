@@ -176,7 +176,7 @@ class FilingCabnet():
 
         elif responce.lower() in self.passive_commands:
             self.passive_commands[responce]()
-            return self.ask_for_input()
+            return self.ask_for_input(dirname, f)
         else:
             new_shortcut = self.is_new_shortcut(responce)
             if new_shortcut in self.path_dict:
